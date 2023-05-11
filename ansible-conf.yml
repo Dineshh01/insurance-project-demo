@@ -1,0 +1,15 @@
+---
+
+- name: install and deploy insure-me
+  hosts: all
+  become: true
+  tasks:
+
+    - name: update
+      command: sudo apt update
+
+    - name: install docker
+      command: sudo apt install docker.io -y
+
+    - name: deploy docker
+      command: docker run -itd -p 8082:8081 --name dninesh dineshdevops1/trail2:1.0
