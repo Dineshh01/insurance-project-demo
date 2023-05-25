@@ -1,2 +1,2 @@
 [test-server]
-172.31.24.253 ansible_ssh_private_key_file=/home/ubuntu/project/insurance-project-demo/secretkey ansible_user=ubuntu
+172.31.93.85 ansible_ssh_private_key_file=/home/ubuntu/project/insurance-project-demo/secretkey ansible_user=ubuntu
